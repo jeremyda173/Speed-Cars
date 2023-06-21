@@ -47,7 +47,7 @@ body{
 }
 
 hr {
-	height: 5px;
+	height: 9px;
 	width: 45%;
 	background-color: rgb(0, 26, 172);
 	border: none;
@@ -144,3 +144,72 @@ input {
 }
 
 /* Fin del Buscador*/
+
+
+/*Marcas*/
+
+.marcas{
+
+ width: 20%;
+ font-size: 30%;
+ border: none;
+ display: flex;
+ margin-left: 218px;
+ 
+}
+
+.button{
+
+	display: flex;
+	justify-content: space-between;
+
+}
+
+button{
+
+color: rgb(0, 128, 255);
+border: none;
+background: #000;
+cursor: pointer;
+font-size: 110%;
+
+animation-name: pulsate;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes pulsate {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  transform: scale(1.2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+
+.button1{
+
+	padding-left: 300px;
+
+}
+
+.button2{
+
+    padding-left: 0px;
+
+}
+
+.button3{
+
+    padding-right: 355px;
+
+}
+
+
+
+/*Fin Marcas*/
