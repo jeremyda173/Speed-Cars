@@ -1,0 +1,33 @@
+*{
+
+padding: 0px;
+margin: 0px;
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+.kes{
+
+ font-size: 100px;
+ text-align: center;
+ margin: 150px;
+
+}
+
+
+hr{
+
+ margin: 8%;
+ height: 9px;
+ border: none;
+ background-color: rgba(100, 20, 20, 0.767);
+ border-radius: 20px;
+
+}
+
+.img{
+
+    width: 100px;
+    height: 100px;
+
+}
